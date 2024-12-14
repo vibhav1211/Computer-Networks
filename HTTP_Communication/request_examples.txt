@@ -1,0 +1,17 @@
+GET http://127.0.0.1/Users/vibhavdubey/Desktop/Learning/Computer_networks/Socket_Programming/assign4/server/data_client_requests.txt:8080
+PUT http://127.0.0.1/Users/vibhavdubey/Desktop/Learning/Computer_networks/Socket_Programming/assign4/server:8080 data_client_sends.txt
+
+
+GET http://127.0.0.1/Users/vibhavdubey/Desktop/vibhav/sHIKHA/dump/temp.txt:8080
+PUT http://127.0.0.1/Users/vibhavdubey/Desktop/vibhav/sHIKHA/dump:8080 data_client_sends.txt
+
+
+PUT http://127.0.0.1/Users/vibhavdubey/Desktop/vibhav/sHIKHA/dump:8081 data_client_sends.txt
+
+
+for GET instruction
+give http protocol -> then give ip address of server -> then path of file which you want to get -> then port number of server
+
+for PUT instruction
+give http protocol -> then give ip address of server -> then path of folder where you want to put the file 
+-> then port number of server -> then filename with extension (which must be in the same directory as of brower file)
